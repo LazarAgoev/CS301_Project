@@ -6,7 +6,7 @@ Prof. Pantelis Monogioudis
 The purpose of this program is to generate accurate predictions for meal swipes per specified time period based off provided data from GDS backboard systems.
 In order for the colab notebook to run you must download and upload the 'GDS_data3.csv' file found in the main branch.
 
-[GDS_Project_Presentation.mp4](GDS_Project_Presentation.mp4) file is the presentation slides.
+[GDS Project.pdf](GDS Project.pdf) file is the presentation slides.
 
 CS301_project_presentation.mp4 is the video recording with group members presenting the provided slides.
 
