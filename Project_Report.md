@@ -1,8 +1,17 @@
 ***Project Report #
-Using LSTM To Predict Capacity for NJIT’s GDS,
+Using LSTM To Predict Capacity for NJIT’s GDS,***
+
+
 Nikhil Ramesh
+
+
 Lazar Agoev
-Sergio Torrico***
+
+
+Sergio Torrico
+
+
+
 
 Abstract: With the emergence of COVID-19 and the ever increasing importance of social distancing/capacity limits on indoor services, 
 should COVID-19 rates ramp up again, it is extremely important to have an accurate prediction of current building capacity so that 
