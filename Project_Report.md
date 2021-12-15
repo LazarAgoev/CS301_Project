@@ -45,11 +45,11 @@ file format before and after preprocessing can be seen in the following screensh
 
 Original CSV Datafile:
 
-![](ImageReferences/Original CSV.png)
+![](ImageReferences/Original%20CSV.png)
 
 Preprocessed CSV Datafile:
 
-![](ImageReferences/Processed CSV.png)
+![](ImageReferences/Processed%20CSV.png)
 
 
 Methods: After reading material on sales forecasting and other related algorithms it was clear that Poisson simulation and ARIMA were not quite 
@@ -58,7 +58,7 @@ predict future meal periods based on those we were provided from the GDS data sy
 most accurate data model representation since we have done research on various algorithms for similar situations and selected the most applicable 
 model in order to complete our specific problem.
  
-![](ImageReferences/Week Predictions.png)
+![](ImageReferences/Week%20Predictions.png)
 
 The above graph shows the corresponding meal period prediction values for each day of the week. For example the graph labeled Monday at Index 2 
 represents the predicted value of meal swipes on monday for the time period 10:30am-3:30pm. When we graph these predicted values compared to the 
