@@ -1,8 +1,8 @@
-Project Report #
+***Project Report #
 Using LSTM To Predict Capacity for NJIT’s GDS,
 Nikhil Ramesh
 Lazar Agoev
-Sergio Torrico
+Sergio Torrico***
 
 Abstract: With the emergence of COVID-19 and the ever increasing importance of social distancing/capacity limits on indoor services, 
 should COVID-19 rates ramp up again, it is extremely important to have an accurate prediction of current building capacity so that 
@@ -89,11 +89,19 @@ Conclusion: The model did an excellent job at predicting the meal swipes per din
 random week from the ground truth data compared to our predictor data the margin of error was the following for each respective day (Monday-Sunday) were: 2.84%, 
 9.43%, 10.76%, 5.37%, 5.41%, 4.06%, and 1.97% totaling in a weekly error margin of 5.69%. Some future ideas to expand upon this project in order to make the model 
 more accurate/more properly solve the problem discussed in our proposal include:
+
+
 ●	Access a larger GDS dataset of at least 3 years in order to properly account for outliers that occur yearly, such as holidays, campus breaks, and other special events.
+
+
 ●	Receiving more precise data in order to create more precise predictions. For example, if we decrease the time periods from the aforementioned four time periods to 
 hourly data, the model could accurately predict and therefore solve the original problem mentioned in our proposal.
+
+
 ●	Having access to more information from the GDS backboard system such as how many people are currently enrolled at NJIT and the current capacity for the continuous 
 dining hall. This would have allowed for us to properly implement our percentage system that would be used for indoor capacities during a new wave of COVID-19.
+
+
 ●	We would also compare our predicted data with the corresponding weeks in the future in order to get a complete comparison of predicted data to ground truth data instead 
 of predicted data to past data.
 
