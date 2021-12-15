@@ -1,7 +1,6 @@
 ***Project Report #
 Using LSTM To Predict Capacity for NJIT’s GDS,***
 
-
 Nikhil Ramesh
 
 Lazar Agoev
