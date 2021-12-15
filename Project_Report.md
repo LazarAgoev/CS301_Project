@@ -44,10 +44,10 @@ file format before and after preprocessing can be seen in the following screensh
 
 
 Original CSV Datafile:
-
+![](ImageReferences/Original CSV.png)
 
 Preprocessed CSV Datafile:
-
+![](ImageReferences/Processed CSV.png)
 
 
 Methods: After reading material on sales forecasting and other related algorithms it was clear that Poisson simulation and ARIMA were not quite 
@@ -56,10 +56,12 @@ predict future meal periods based on those we were provided from the GDS data sy
 most accurate data model representation since we have done research on various algorithms for similar situations and selected the most applicable 
 model in order to complete our specific problem.
  
+![](ImageReferences/Week Predictions.png)
 The above graph shows the corresponding meal period prediction values for each day of the week. For example the graph labeled Monday at Index 2 
 represents the predicted value of meal swipes on monday for the time period 10:30am-3:30pm. When we graph these predicted values compared to the 
 ground truth values the following graph is produced: 
  
+![](ImageReferences/Oscillations.png)
 The above graph shows the blue line for the ground truth data recorded via the GDS meal period system while the orange line represents our LSTM model’s 
 predictions for each respective meal period. Utilizing the Sklearn module’s mean_squared_error, mean_absolute_error, and r2_score metric it shows that 
 our data has a R2 correlation coefficient in the range of .93-.99 and an average of approximate .96 when ran with epoch of size 200. Therefore it shows 
@@ -71,11 +73,11 @@ Unfortunately the results of our first experiment were not accurate since it was
 the current data values of the week 11/22-11/28 are effectively outliers. The second strategy was an ablation study. We mentioned how it was important to factor 
 in the actual day of the week due to its influence on current capacity. This is further supported by the ablation study where we utilized the model without day 
 distinction and got extremely inaccurate results which can be seen by the screenshot of our original data model below:
- 
+![](ImageReferences/Inaccurate.png) 
  
 Lastly, we checked our data prediction model using data visualization. As mentioned above in the data section, the following graph provides adequate evidence to 
 show the correlation between our predicted values and the ground truth values:
- 
+![](ImageReferences/Oscillations.png) 
 
 Conclusion: The model did an excellent job at predicting the meal swipes per dining period when compared with the data provided by GDS. For example, selecting a 
 random week from the ground truth data compared to our predictor data the margin of error was the following for each respective day (Monday-Sunday) were: 2.84%, 
